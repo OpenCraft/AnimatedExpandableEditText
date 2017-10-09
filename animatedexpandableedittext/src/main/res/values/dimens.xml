@@ -1,0 +1,3 @@
+<resources>
+    <dimen name="animated_expandable_edit_text_expanded_height">35dp</dimen>
+</resources>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="animated_expanded_edit_text_animation_duration_milliseconds">400</integer>
+</resources>

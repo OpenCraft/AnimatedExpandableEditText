@@ -1,0 +1,8 @@
+<resources>
+    <dimen name="sample_form_group_separator_height">1dp</dimen>
+    <dimen name="sample_edit_text_default_height">50dp</dimen>
+    <dimen name="sample_edit_text_padding_horizontal">20dp</dimen>
+    <dimen name="sample_edit_text_size">14dp</dimen>
+
+    <dimen name="animated_expandable_edit_text_expanded_height">50dp</dimen>
+</resources>

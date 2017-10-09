@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo"
+    android:orientation="vertical"
+    android:padding="40dp">
+
+    <LinearLayout
+        android:id="@+id/form_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/form_group_shape"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+        <com.gcherubini.animatedexpandableedittext.AnimatedExpandableEditText
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/sample_edit_text_default_height"
+            android:background="@android:color/transparent"
+            android:hint="CPF"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:maxLines="1"
+            android:paddingLeft="@dimen/sample_edit_text_padding_horizontal"
+            android:paddingRight="@dimen/sample_edit_text_padding_horizontal"
+            android:textSize="@dimen/sample_edit_text_size" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/sample_form_group_separator_height"
+            android:background="@android:color/darker_gray" />
+
+        <com.gcherubini.animatedexpandableedittext.AnimatedExpandableEditText
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/sample_edit_text_default_height"
+            android:background="@android:color/transparent"
+            android:hint="E-mail"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:maxLines="1"
+            android:paddingLeft="@dimen/sample_edit_text_padding_horizontal"
+            android:paddingRight="@dimen/sample_edit_text_padding_horizontal"
+            android:textSize="@dimen/sample_edit_text_size" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/sample_form_group_separator_height"
+            android:background="@android:color/darker_gray" />
+
+        <com.gcherubini.animatedexpandableedittext.AnimatedExpandableEditText
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/sample_edit_text_default_height"
+            android:background="@android:color/transparent"
+            android:hint="Data de nascimento"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:maxLines="1"
+            android:paddingLeft="@dimen/sample_edit_text_padding_horizontal"
+            android:paddingRight="@dimen/sample_edit_text_padding_horizontal"
+            android:textSize="@dimen/sample_edit_text_size" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/form_group2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/form_group_shape"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+        <com.gcherubini.animatedexpandableedittext.AnimatedExpandableEditText
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/sample_edit_text_default_height"
+            android:background="@android:color/transparent"
+            android:hint="About you"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:maxLines="1"
+            android:paddingLeft="@dimen/sample_edit_text_padding_horizontal"
+            android:paddingRight="@dimen/sample_edit_text_padding_horizontal"
+            android:textSize="@dimen/sample_edit_text_size" />
+
+    </LinearLayout>
+
+</LinearLayout>
