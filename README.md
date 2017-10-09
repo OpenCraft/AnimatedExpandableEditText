@@ -16,7 +16,7 @@ allprojects {
 2. Add the dependency
 ```
 dependencies {
-  compile 'com.github.gcherubini:AnimatedExpandableEditText:-SNAPSHOT'
+  compile 'com.github.OpenCraft:AnimatedExpandableEditText:-SNAPSHOT'
 }
 ```
 
