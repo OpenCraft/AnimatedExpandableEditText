@@ -1,5 +1,5 @@
 # AnimatedExpandableEditText
-A simple cool animated edit text with a expandable animation
+A simple cool animated edit text with a expandable animation for Android
 
 ![Animated Expandable Edit Text Animation](https://media.giphy.com/media/3ohhwxUxWnytY33gRi/giphy.gif)
 
